@@ -7,6 +7,14 @@
         <label>Order Information</label>
         <layoutColumns>
             <layoutItems>
+                <behavior>Required</behavior>
+                <field>NSSCCConnector__Order_SCCSync_Status__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>NSSCCConnector__SFCC_Order_Total__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>OrderNumber</field>
             </layoutItems>
@@ -113,6 +121,10 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <miniLayout>
+        <fields>NSSCCConnector__Order_SCCSync_Status__c</fields>
+        <fields>NSSCCConnector__SFCC_Order_Total__c</fields>
+    </miniLayout>
     <relatedLists>
         <fields>Product2</fields>
         <fields>ProductCode</fields>

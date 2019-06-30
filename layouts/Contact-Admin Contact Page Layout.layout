@@ -11,6 +11,10 @@
         <label>Contact Information</label>
         <layoutColumns>
             <layoutItems>
+                <behavior>Required</behavior>
+                <field>NSSCCConnector__Contact_Status__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>OwnerId</field>
             </layoutItems>
@@ -282,6 +286,7 @@
         <fields>Phone</fields>
         <fields>MobilePhone</fields>
         <fields>Email</fields>
+        <fields>NSSCCConnector__Contact_Status__c</fields>
     </miniLayout>
     <platformActionList>
         <actionListContext>Record</actionListContext>
